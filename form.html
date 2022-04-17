@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./my own css library/index.css">
+    <title>Formulario</title>
+</head>
+<body>
+    
+    <main class="main" style="background: rgb(2,0,36); background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(245,230,255,1) 0%, rgba(237,252,255,1) 100%);">
+        <!-- <div class="container">
+            <div class="row">
+
+            </div>
+        </div> -->
+
+        <nav class="navbar bg-purple-light-9" style="box-shadow: none;">
+            <div class="container">
+                <h1 class="site-title">
+                    <img src="./Assets/Logo.svg" alt="logo">
+                </h1>
+                <!-- mobile view -->
+    
+                <a href="./index.html" class="display-f">
+                    <img src="./Assets/Back Arrow.svg" alt="arrow" style="margin-right: 1.5rem; cursor: pointer;">
+                    <div class="desktop-view">
+                        <span style="cursor: pointer;">Back To Homepage</span>
+                    </div>
+                </a>
+                    
+                
+            </div>
+        </nav>
+
+
+        <div class="container" >
+
+            <div class="row gap-1">
+                <div class="col-12 col-md-6">
+
+                    <div style="height: 100%; display: flex; flex-direction: column; justify-content: center;">
+                        <h1 style="margin-bottom: 2rem; margin-top: 1rem;">Create your personalized feed</h1>
+
+                        <div style="display: flex; margin-bottom: 2rem;">
+                            <p>
+                                🎈
+                            </p>
+                            <p>
+                                <b>Over 20 Resources</b>. With resources ranging from Reddit to IndieHackers, we´ve got all your needs covered
+                            </p>
+                        </div>
+
+                        <div style="display: flex; margin-bottom: 2rem;">
+                            <p>
+                                🗞️
+                            </p>
+                            <p>
+                                <b>Delivery Weekly</b> Every week at exactly tuesday 12:00 PM - 
+                                expect a value-packed digest right in your email
+
+                            </p>
+                        </div>
+
+                        <div style="display: flex; margin-bottom: 2rem;">
+                            <p>
+                                🔥
+                            </p>
+                            <p>
+                                <b>Unlimited ideas</b> With all the ideas you´ll be reading about what´s stopping you from creating a sustainable startup?
+                          </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-6">
+
+                    <form class="form p-4" style="max-width: 600px; min-width: 200px; background-color: white;">
+                        <h1 class="title step-2 mb-2" style="text-align: center;">Create your IndieBrew Account</h1>
+            
+                        <div class="form-section">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your email"
+                            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required
+                            title="Email not valid"
+                            >
+                        </div>
+            
+                        <div class="form-section">
+                            <label for="text">Name</label>
+                            <input type="text" name="text" id="text" placeholder="Enter your name"
+                            required title="Enter your Name">
+                        </div>
+            
+                        <div class="form-section">
+                            <label for="password">password</label>
+                            <input type="password" name="password" id="password" placeholder="Enter your password" required
+                            title="Enter your Password">
+                        </div>
+            
+                        <div class="form-section">
+                            
+                            <input type="checkbox" name="checkbox" id="checkbox">
+                            <span>
+                                By 
+                                Creating an account on IndieHackers, you agree
+                                to the <a href="#" target="_blank" rel="noopener noreferrer">Terms & conditions</a>
+                            </span>
+                        </div>
+            
+                        <div class="form-section">
+                            
+                            <input type="submit" value="Create an account" class="btn-purple text-white">
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+    </main>
+
+</body>
+</html>
